@@ -27,6 +27,7 @@ if [[ `uname` == 'Linux' ]]; then
 fi
 
 # Build and install Torch7
+mkdir -p /tmp/$USER
 cd /tmp/$USER
 git clone https://github.com/torch/luajit-rocks.git
 cd luajit-rocks
